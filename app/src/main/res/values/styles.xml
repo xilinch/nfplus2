@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar" />
+    <!-- 启动界面Theme -->
+    <style name="Theme.Splashv1" parent="android:Theme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/loading_normal</item>
+    </style>
+
+    <style name="guid" parent="android:Theme.Light.NoTitleBar.Fullscreen" />
+    <style name="bottom_btn_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/selector_text_color_check_f83c41_normal_999999</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+
+    </style>
+</resources>

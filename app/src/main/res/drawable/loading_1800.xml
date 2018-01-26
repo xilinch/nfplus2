@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <color android:color="@color/white"/>
+    </item>
+    <item
+        android:bottom="18dp"
+        >
+        <bitmap
+            android:gravity="bottom|center_horizontal"
+            android:id="@+id/slogan_source"
+            android:src="@mipmap/slogan_source">
+        </bitmap>
+    </item>
+</layer-list>

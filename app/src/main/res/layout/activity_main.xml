@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RadioGroup
+        android:id="@+id/rg_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_new"
+            style="@style/bottom_btn_style"
+            android:checked="true"
+            android:drawableTop="@drawable/selector_btn_new"
+            android:text="新闻" />
+
+        <RadioButton
+            android:id="@+id/rb_city"
+            style="@style/bottom_btn_style"
+            android:drawableTop="@drawable/selector_btn_city"
+            android:text="城市" />
+
+        <RadioButton
+            android:id="@+id/rb_service"
+            style="@style/bottom_btn_style"
+            android:drawableTop="@drawable/selector_btn_service"
+            android:text="服务" />
+
+        <RadioButton
+            android:id="@+id/rb_activity"
+            style="@style/bottom_btn_style"
+            android:drawableTop="@drawable/selector_btn_activity"
+            android:text="活动" />
+
+        <RadioButton
+            android:id="@+id/rb_my"
+            style="@style/bottom_btn_style"
+            android:drawableTop="@drawable/selector_btn_my"
+            android:text="我" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rg_tab"
+        android:orientation="vertical"
+        android:text="Hello World!"></LinearLayout>
+
+
+</RelativeLayout>

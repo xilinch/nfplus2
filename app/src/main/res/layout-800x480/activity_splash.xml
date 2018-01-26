@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <FrameLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:background="@color/white"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:src="@mipmap/slogan_source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/fl_top"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:scaleType="centerCrop"
+            android:visibility="gone" />
+
+        <com.nfdaily.nfplus1.view.CircleTextProgressbar
+            android:id="@+id/pro_ad_skip"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:alpha="0.5"
+            android:gravity="center"
+            android:text="跳过"
+            android:textSize="10sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_tag"
+            android:layout_width="35dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/dd_shaper_ffffff_8"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="广告"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+</FrameLayout>
